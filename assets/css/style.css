@@ -1,0 +1,188 @@
+/* -nav.css */
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+/* class-img */
+
+.class-img{
+  height: 460px;
+  width: 100%;
+}
+
+
+
+/* -carousel */
+
+.header-carusel-button{
+  background-color: #1c1d1f;
+  height: 3rem;
+  width: 3rem;
+  padding: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+}
+.carousel-control-prev-icon ,
+.carousel-control-next-icon {
+  background-size: cover;
+}
+.carousel-control-prev{
+  margin-left: 2rem;
+}
+.carousel-control-next{
+  margin-right: 2rem;
+}
+
+
+
+/* header-banner */
+
+.header-banner{
+  position: absolute;
+  top: 3rem;
+  left: 4rem;
+  background-color: white;
+  display: block;
+  max-width: 350px;
+  padding: 2rem;
+}
+
+/* globals */
+
+.flex-auto {
+  flex: auto;
+}
+
+section{
+  margin: 3rem auto;
+}
+a{
+  color:inherit;
+  text-decoration:none ;
+}
+a:hover{
+  color:rgb(121, 121, 121);
+}
+
+/* courses */
+
+.tab-pane{
+  border: 1px solid rgb(201, 201, 201);
+  border-top: 0;
+  padding: 1.4rem;
+}
+.carousel-card{
+  margin: 2rem ;
+}
+
+.carousel-img{
+  border: 1px solid rgb(201, 201, 201);
+  
+}
+.carousel-img > img{
+  width: 100%;
+
+}
+.carousel-body{
+  padding: 0.3rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+
+
+/* skills */
+
+.skills{
+  display:flex;
+  margin: 1.5rem auto;
+}
+.skills-icon{
+  background-color: lightgray;
+  border-radius: 5%;
+  width: 3rem ;
+  height: 2rem;
+  display: grid;
+  place-content: center;
+  margin-right: 0.5rem ;
+}
+.skills-icon i{
+  padding: 0.5rem;
+}
+.skills-desc{
+  font-weight: 500;
+  display: grid;
+  place-content: center;
+}
+/* Categories */
+
+.Categories{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.Category{
+  display: grid;
+  place-content: center;
+  flex: 1;
+  margin: 0.6rem;
+}
+
+.Category-title{
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.Category-img:hover{
+  transform: scale(1.1);
+}
+.Category-img img{
+  width: 180px;
+  height: 180px;
+  margin: 1.5rem ;
+  transition: transform 150ms ease-in;
+
+}
+
+
+
+/* FOOTER */
+
+
+.footer-menu{
+  display: flex;
+  justify-content:space-between ;
+  padding:2rem 1rem;
+}
+.footer-menu ul{
+  list-style-type:none ;
+  padding: 0;
+  margin: 0;
+  font-size:1rem;
+}
+
+.sub-footer{
+  display: flex;
+  justify-content:space-between ;
+  padding: 1rem 1rem;
+}
+
+
+
+
+
+
+/* footer-naseem */
+
+.footer-naseem{
+  text-align:center;
+  height: 30px;
+  font-size: 15px;
+}
